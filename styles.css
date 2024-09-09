@@ -81,6 +81,7 @@ ul li {
     transition: 0.4s;
     margin-top: 5px;
     margin-bottom: 5px;
+    /* background-color: #e4e6e4; */
 
     span{
         position: absolute;
@@ -108,15 +109,16 @@ ul li:hover{
 ul li::before{
     content: '';
     position: absolute;
-    height: 28px;
+    height: 25px;
     width: 25px;
     border-radius: 50%;
-    background-image: url(/images/unchecked.png);
+    background-image: url(/images/unchecked-grey.png);
     background-size: cover;
     background-position: center;
     border: 1px;
     top: 12px;
     left: 8px;
+    align-self: auto;
 }
 
 ul li.checked{

@@ -1,4 +1,5 @@
 # To-Do List Web App
+NOT FINAL
 
 This is a simple To-Do List web application that allows users to add, check/uncheck, and delete tasks. The tasks are saved in the browser's local storage, so they remain persistent even after refreshing the page.
 
